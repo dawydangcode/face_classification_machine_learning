@@ -1,0 +1,20 @@
+# Roboflow Single-Label Classification Dataset
+# Gender Classification: Female vs Male
+
+# Dataset info
+roboflow:
+  workspace: YOUR_WORKSPACE_ID
+  project: gender-classification
+  version: 1
+
+# Number of classes
+nc: 2
+
+# Class names (Single-Label Classification)
+names:
+  0: female
+  1: male
+
+# Additional info
+task: classification
+type: single-label
