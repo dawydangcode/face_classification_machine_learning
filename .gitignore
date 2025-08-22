@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Dataset files (too large for GitHub)
+data/raw/Img/
+data/raw/Anno/list_landmarks_align_celeba.txt
+data/raw/Anno/list_landmarks_celeba.txt
+data/raw/Anno/list_attr_celeba.txt
+data/raw/celeba_for_roboflow.csv
+data/raw/celeba_backup_*.csv
+
+# Model files
+models/*.h5
+models/*.pkl
+models/*.joblib
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
