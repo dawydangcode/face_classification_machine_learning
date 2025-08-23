@@ -33,8 +33,9 @@ cat > $DATASET_DIR/data.yaml << EOF
 
 # Dataset info
 roboflow:
-  workspace: YOUR_WORKSPACE_ID
-  project: gender-classification
+  # Roboflow project information
+WORKSPACE_ID="faceshapedetect"
+PROJECT_ID="gender-classification-uzvfc"
   version: 1
 
 # Number of classes

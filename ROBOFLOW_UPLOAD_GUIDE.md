@@ -38,12 +38,14 @@ roboflow import -w YOUR_WORKSPACE_ID -p gender-classification roboflow_gender_da
 ```
 
 **Thay thế**:
+
 - `YOUR_WORKSPACE_ID` bằng Workspace ID thực tế của bạn
 - `gender-classification` bằng Project ID thực tế
 
 ## Bước 5: Verify Upload
 
 Sau khi upload:
+
 1. Truy cập project trên Roboflow.com
 2. Kiểm tra 6,000 ảnh đã được upload
 3. Verify 2 classes: female (3,000), male (3,000)
@@ -81,14 +83,17 @@ roboflow_gender_dataset/
 ## Troubleshooting
 
 **Lỗi authentication**:
+
 - Kiểm tra API key và workspace ID
 - Đảm bảo đã login CLI thành công
 
 **Lỗi format**:
+
 - Kiểm tra data.yaml syntax
 - Đảm bảo folder structure đúng
 
 **Upload chậm**:
+
 - Dataset có 6,000 ảnh, có thể mất 10-30 phút
 - Kiểm tra kết nối internet
 

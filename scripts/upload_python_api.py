@@ -8,10 +8,10 @@ import time
 from tqdm import tqdm
 from roboflow import Roboflow
 
-# Configuration - BẠN CẦN THAY ĐỔI CÁC GIÁ TRỊ NÀY
-API_KEY = "YOUR_API_KEY_HERE"  # Lấy từ Roboflow Settings > API
-WORKSPACE_ID = "YOUR_WORKSPACE_ID"  # Tìm trong URL roboflow
-PROJECT_NAME = "gender-classification"  # Tên project đã tạo
+# Configuration - ĐÃ CẬP NHẬT VỚI THÔNG TIN CỦA BẠN
+API_KEY = "lde2hp1C5PxcfTaUwjox"  # Private API Key
+WORKSPACE_ID = "faceshapedetect"  # Workspace ID
+PROJECT_NAME = "gender-classification-uzvfc"  # Project ID
 
 def upload_with_python_api():
     """
